@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "required": [
+    "issuer",
+    "timestamp",
+    "sha256",
+    "document_id",
+    "ledger_reference"
+  ]
+}

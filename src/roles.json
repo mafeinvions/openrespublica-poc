@@ -1,0 +1,11 @@
+{
+  "viewer": {
+    "description": "Can view documents and QR validations."
+  },
+  "encoder": {
+    "description": "Can upload, stamp, and generate audit trail."
+  },
+  "auditor": {
+    "description": "Has access to ledger explorer and compliance notes."
+  }
+}

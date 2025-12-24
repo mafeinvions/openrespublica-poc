@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Role Switcher</title>
+</head>
+<body>
+  <h2>Role Switcher</h2>
+
+  <select onchange="switchRole(this.value)">
+    <option value="viewer">Viewer</option>
+    <option value="encoder">Encoder</option>
+    <option value="auditor">Auditor</option>
+  </select>
+
+  <h3>Current Role: <span id="roleDisplay">VIEWER</span></h3>
+
+  <script src="../assets/js/roles.js"></script>
+</body>
+</html>

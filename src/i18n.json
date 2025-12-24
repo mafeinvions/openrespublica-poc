@@ -1,0 +1,17 @@
+{
+  "en": {
+    "title": "OpenResPublica Public Transparency Ledger",
+    "submit_report": "Submit Report",
+    "view_ledger": "View Ledger"
+  },
+  "fil": {
+    "title": "Pampublikong Transparency Ledger ng OpenResPublica",
+    "submit_report": "Isumite ang Ulat",
+    "view_ledger": "Tingnan ang Ledger"
+  },
+  "ceb": {
+    "title": "OpenResPublica Public Transparency Ledger",
+    "submit_report": "Isumite ang Report",
+    "view_ledger": "Tan-awa ang Ledger"
+  }
+}

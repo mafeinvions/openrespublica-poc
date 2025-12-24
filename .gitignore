@@ -1,6 +1,3 @@
-# Node modules
-node_modules/
-
 # Logs
 logs
 *.log
@@ -12,3 +9,17 @@ npm-debug.log*
 # OS-specific
 .DS_Store
 Thumbs.db
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Node (optional future)
+node_modules/
+dist/
+
+# Temporary
+*.tmp
+*.cache

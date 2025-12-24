@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QR Generator | OpenResPublica</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/hash.js" defer></script>
+  <script src="scripts/main.js" defer></script>
+</head>
+<body>
+
+<header>
+  <h1>Document QR Generator</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="qrgenerator.html">QR Generator</a>
+  <a href="verify.html">Verify</a>
+</nav>
+
+<section class="card">
+  <label>ID:</label>
+  <input id="docid">
+
+  <label>Title:</label>
+  <input id="title">
+
+  <label>Issuer:</label>
+  <input id="issuer">
+
+  <button onclick="generateQR()">Generate</button>
+
+  <h3>Hash Output:</h3>
+  <pre id="hashOutput"></pre>
+
+  <h3>QR Code:</h3>
+  <div id="qr"></div>
+</section>
+
+</body>
+</html>

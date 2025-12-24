@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Verify Document | OpenResPublica</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/verify.js" defer></script>
+</head>
+<body>
+
+<header>
+  <h1>Document Verification</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="qrgenerator.html">QR Generator</a>
+  <a href="verify.html">Verify</a>
+</nav>
+
+<section class="card">
+  <label>Enter Document ID</label>
+  <input id="lookup">
+
+  <button onclick="verifyDoc()">Verify</button>
+
+  <h3>Result:</h3>
+  <pre id="result"></pre>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+<h1>OPR Ledger Dashboard</h1>
+<div id="ledger"></div>
+
+<script>
+fetch("../data/OPR-2025-0001.json")
+  .then(r => r.json())
+  .then(d => {
+      document.getElementById("ledger").innerHTML =
+          `<pre>${JSON.stringify(d, null, 2)}</pre>`;
+  });
+</script>

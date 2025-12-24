@@ -1,0 +1,7 @@
+.watermark {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.4;
+    transform: rotate(-8deg);
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.7s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+.watermark {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.2;
+    font-size: 0.8rem;
+}
+
+.page-transition {
+    animation: fadeIn 0.6s ease-in-out;
+}
